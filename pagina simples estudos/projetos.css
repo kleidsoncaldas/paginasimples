@@ -1,104 +1,88 @@
 body {
-  margin: 0;
   background-color: #ccc;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .hero {
-  background-image: url(bg-4.jpg);
-  height: 800px;
-  background-size: cover;
-  background-position: top;
+  background-image: url(bg-4.jpg) ;
   padding-top: 1px;
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
-.hero-content {
-  margin: 50px auto 0;
-  width: 80%;
-  text-align: center;
+nav a {
+  text-decoration: none;
   color: white;
-}
-
-.hero-content h1 {
-  font-size: 50px;
-  text-shadow: 2px 2px 5px black;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-
-.hero-content p {
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  font-size: 16px;
-  border-bottom: 2px solid;
-  margin-top: 0;
+  padding: 7px;
   display: inline-block;
+  text-transform: uppercase;
 }
 
-.hero nav ul {
-  margin: 20px 50px 0 0;
+nav ul {
   text-align: right;
 }
 
-.hero nav li {
-  display: inline-block;
+
+nav li {
   list-style-type: none;
-  border: 1px solid white;
-  margin-left: 13px;
+  display: inline-block;
+  border: solid 2px #ccc;
+  margin: 10px;
+  padding: 2px;
+  background-color: rgba(0, 0, 0, .3);
+  
 }
 
-.hero nav a {
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 16px;
-  display: block;
-  color: white;
-  text-decoration: none;
+nav a:hover {
+  background-color: rgba(0, 0, 0, .7);
+  display: inline-block;
+  padding: 7px;
+  
+}
+
+h1 {
+  text-align: center;
   text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 3px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 7);
 }
 
-.hero nav a:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
 
-main {
-  width: 80%;
-  margin: auto;
-  max-width: 860px;
-}
 
-section {
-  padding-top: 27px;
-}
 
-article {
-  background-color: white;
-  padding: 16px;
-  margin-bottom: 27px;
-}
-
-article h2 {
-  border-bottom: 2px solid #ccc;
-  background-color: #eee;
+div p {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, .7);
+  border-bottom: 2px white solid;
+  margin: 250px;
   padding: 10px;
   margin-top: 0;
 }
 
-.btn {
-  background-color: #cdc7c3;
-  display: block;
-  padding: 12px;
-  border-radius: 6px;
-  margin-left: auto;
-  width: fit-content;
+.secao {
+  background-color: white;
+  margin: 50px;
+  padding: 10px 20px 30px 20px;
 }
 
-.rodape {
-  color: white;
-  background-color: #6b6c68;
+.secao h2 {
+  background-color: rgba(110, 127, 236, 0.2);
+  border-bottom: 2px #ccc solid;
+  text-transform: uppercase;
+}
+
+.secao a {
+  background-color: rgba(0, 0, 0, .3);
+  padding: 10px;
+  border-radius: 7px;
+  color: blue;
+}
+
+footer p {
+  background-color: rgba(0, 0, 0, .4);
   text-align: center;
-  padding: 15px;
-  text-shadow: 2px 2px 1px black;
-  letter-spacing: 2px;
+  padding: 20px;
 }
